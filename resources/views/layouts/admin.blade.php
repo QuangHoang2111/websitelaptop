@@ -152,7 +152,11 @@
         </div>
         <nav class="nav flex-column p-3">
             <a href="#" class = "nav-link">Trang chủ</a>
-            <a href="#" class = "nav-link">Sản phẩm</a>
+            <li class ="nav-item">
+                <a href="{{route('admin.brands')}}" class = "nav-link">Sản phẩm
+
+                </a>
+            </li>
             <a href="#" class = "nav-link">Thương hiệu</a>
             <a href="#" class = "nav-link">Danh mục</a>
             <a href="#" class = "nav-link">Đơn hàng</a>
